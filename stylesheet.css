@@ -10,13 +10,23 @@ body {
     width: 100vw;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
 header{
     width: 100%;
-    min-height: auto ;
+    min-height: auto
+    color: #fff;
     position: relative;
     text-align: center;
-    background-image: url("https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg");
+    background-image: url('https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg');
     background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
    }
 
 header .header-content {
@@ -32,6 +42,8 @@ header .header-content, .header-content-inner h1 {
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 300;
+    color: #fff;
+    text-align: center;
 }
 
 
@@ -39,6 +51,23 @@ header .header-content, .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
+    color: rgba(255,255,255,.7);
 } 
+
+
+
+.intro {
+    color: #fff;
+    background-color: orange;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+.content {
+    padding: 100px 0;
+
+
+}
 
 
