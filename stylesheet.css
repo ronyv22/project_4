@@ -4,6 +4,77 @@ html, body {
     height: 100%;
     font-family: 'Roboto', 'Space Mono', monospace, sans-serif;
 }
+
+nav {
+    background-color: #FAB05C;
+;
+}
+
+header {
+    background-image: url('https://images.pexels.com/photos/2397414/pexels-photo-2397414.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    min-height: auto;
+    width: 100%;
+    -webkit-background-size: cover;
+}
+
+.intro {
+    color: #1C1615;
+    background-color: #DD6239;
+    padding-top: 70px 0;
+    text-align: center;
+}
+
+
+.item-1 {
+    background: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg');
+}
+
+.item-2 {
+    background: url('https://images.pexels.com/photos/12579667/pexels-photo-12579667.jpeg');
+}
+
+.item-3 {
+    background: url('https://images.pexels.com/photos/8825761/pexels-photo-8825761.jpeg');
+}
+
+.item-1, .item-2, .item-3 {
+    background-size: cover;
+    background-color: 50% 50%;
+    
+}
+
+.promo-item {
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 110%;
+    border-color: 10px solid rgba(255, 255, 255, 0.3);
+    line-height: 160px;
+    
+}
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.content-3 {
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+.page-footer {
+    text-align: center;
+}
 /**
 
 a {
