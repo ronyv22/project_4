@@ -1,18 +1,20 @@
+
 html, body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', 'Space Mono', monospace, sans-serif;
 }
+/**
 
 a {
-    color: yellowgreen;
+    color: #E16236;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 
 a:hover, a:focus {
-color: forestgreen;
+color: #DD6239;
 }
 
 p {
@@ -25,7 +27,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: #FAB05C;
     background-image: url('https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg');
     background-position: center;
     -webkit-background-size: cover;
@@ -52,7 +54,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255, 255, 255, .7);
+    color: #FAB05C;
 }
 
 @media(min-width: 768px) {
@@ -93,8 +95,8 @@ header .header-content .header-content-inner p {
 }
 
 .intro {
-    color: #fff;
-    background-color: yellowgreen;
+    color: #1C1615;
+    background-color: #DD6239;
     padding-top: 70px 0;
     text-align: center;
 }
@@ -105,7 +107,7 @@ header .header-content .header-content-inner p {
 
 .content-2 {
     color: #fff;
-    background-color: #222;
+    background-color: #1C1615;
 }
 
 .content-3 {
@@ -116,7 +118,7 @@ header .header-content .header-content-inner p {
 .promo, promo h3, promo a:link, promo a:visited,
  promo a:hover, promo a:active {
     color: white;
-    text-shadow: 0px 0px 40px black;
+    text-shadow: 0px 0px 30px #1C1615;
     text-decoration: none;
  }
 
@@ -163,7 +165,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
     padding: 100px 0;
-    background-color: yellowgreen;
+    background-color: #DD6239;
     color: #fff;
 }
 
@@ -195,7 +197,7 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: yellowgreen;
+    color: #DD6239;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -216,7 +218,7 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: yellowgreen!important;
+    color: #DD6239!important;
     background-color: transparent;
 }
 
@@ -239,7 +241,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #984735;
     }
 
     .navbar-default.affix {
