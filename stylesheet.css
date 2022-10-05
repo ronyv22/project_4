@@ -5,9 +5,23 @@ html, body {
     font-family: 'Roboto', 'Space Mono', monospace, sans-serif;
 }
 
+a {
+    color: #DD6239 ;
+    -webkit-transformation: all .35s;
+    transition: all .35s;
+}
+
+a:hover, a:focus {
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 nav {
-    background-color: #FAB05C;
-;
+    background-color: #DD6239;
 }
 
 header {
@@ -19,10 +33,40 @@ header {
     min-height: auto;
     width: 100%;
     -webkit-background-size: cover;
+    color: #fff;
+}
+
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+header .header-content .header-content-inner p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.section-header {
+    margin-top: 0;
+    ,margin-bottom: 20px;
 }
 
 .intro {
-    color: #1C1615;
+    color: #fff;
     background-color: #DD6239;
     padding-top: 70px 0;
     text-align: center;
@@ -41,16 +85,26 @@ header {
     background: url('https://images.pexels.com/photos/8825761/pexels-photo-8825761.jpeg');
 }
 
+
 .item-1, .item-2, .item-3 {
     background-size: cover;
     background-color: 50% 50%;
     
 }
 
+.promo, promo h3, promo a:link, promo a:visited,
+ promo a:hover, promo a:active {
+    color: white;
+    text-shadow: 0px 0px 30px #1C1615;
+    text-decoration: none;
+ }
+
+
 .promo-item {
     height: 200px;
     line-height: 180px;
     text-align: center;
+
 }
 
 .promo-item:hover {
@@ -66,14 +120,71 @@ header {
     vertical-align: middle;
 }
 
+.content-2 {
+    padding: 100px 0;
+    text-align: center;
+}
 
 .content-3 {
     padding: 20px 0 40px;
     text-align: center;
 }
 
+.contact {
+    background-color: #DD6239 ;
+}
+
 .page-footer {
     text-align: center;
+}
+
+
+.page-footer .contact {
+    padding: 100px 0;
+    background-color: #DD6239;
+    color: #fff;
+}
+
+.page-footer .contact p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+.small-print {
+    padding:  50px 0 40px;
+}
+
+
+@media(min-width: 768px) {
+    header {
+     min-height: 100%;    
+}
+    header .header-content {
+     position: relative;
+     top: 50%; 
+     padding: 0 50px;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%); 
+     transform: translateY(-50%); 
+    }
+
+    header .header-content .header-content-inner {
+     margin-right: auto;
+     margin-left: auto;
+     max-width: 1000px;   
+    }
+
+    header .header-content .header-content-inner h1 {
+     font-size: 100px;   
+    }
+
+    header .header-content .header-content-inner p {
+     margin-right: auto;
+     margin-left: auto;
+     max-width: 80%;
+     font-size: 18px;   
+    }
 }
 /**
 
