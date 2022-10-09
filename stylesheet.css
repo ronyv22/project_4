@@ -9,6 +9,9 @@ html, body {
     background-color: #FAB05C;
 }
 
+.dropdown-item {
+    background-color: #FAB05C;
+}
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
@@ -111,6 +114,8 @@ header .header-content .header-content-inner p {
 }
 
 
+
+
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;
@@ -138,17 +143,21 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
+.content img {
+    border-radius: 50%;
+}
+
 
 .item-1 {
-    background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg');
+    background: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg');
     }
     
 .item-2 {
-    background-image: url('https://images.pexels.com/photos/12579667/pexels-photo-12579667.jpeg');
+    background: url('https://images.pexels.com/photos/12579667/pexels-photo-12579667.jpeg');
     }
     
 .item-3 {
-    background-image: url('https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg');
+    background: url('https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg');
     }
        
 
@@ -158,6 +167,8 @@ header .header-content .header-content-inner p {
     background-size: cover;
     background-position: 50% 50%;
     }
+
+
 
 
 .promo,
@@ -180,24 +191,18 @@ header .header-content .header-content-inner p {
 
 .promo-item:hover {
     background-size: 110%; 
-    border: 10px solid rgba(255,255,255,0.3);
+    border: 5px solid rgba(255,255,255,0.3);
     line-height: 160px;
 }
 
 
 .promo-item h3 {
     font-size: 40px;
+    color: #FAB05C;
     display: inline-block;
     vertical-align: middle;
 }
 
-
-@media screen and (max-width: 992px) {
-    .row promo .promo-item {
-      width: 100%;  
-    }
-
-}
 
 
 .btn {
