@@ -6,20 +6,9 @@ html, body {
 }
 
 .navbar {
-    background-color: #FAB05C;
+    background-color: #4C5279;
 }
 
-.dropdown-item {
-    background-color: #FAB05C;
-}
-
-.navbar-default {
-    border-color: rgba(34,34,34,.05);
-    background-color: #B15359;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
 
 
 
@@ -169,8 +158,6 @@ header .header-content .header-content-inner p {
     }
 
 
-
-
 .promo,
 .promo h3,
 .promo a:link,
@@ -186,13 +173,14 @@ header .header-content .header-content-inner p {
     height: 200px;
     line-height: 180px;
     text-align: center;
+    align-content: center;
 }
 
 
 .promo-item:hover {
     background-size: 110%; 
     border: 5px solid rgba(255,255,255,0.3);
-    line-height: 160px;
+    line-height: 160px; 
 }
 
 
@@ -272,6 +260,9 @@ header .header-content .header-content-inner p {
 }
 
 
+.navbar ul li { 
+    padding: 0px 10px; 
+ } 
 
 .btn-default:hover,
 .btn-default:focus,
