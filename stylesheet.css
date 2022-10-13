@@ -10,6 +10,10 @@ html, body {
 }
 
 
+.fa-envelope, .fa-check-double, .fa-phone, .fa-fire {
+    font-size: 40px;
+    margin: auto;
+}
 
 
 a {
@@ -33,6 +37,7 @@ p {
 h3 {
     color: #FAB05C;
 }
+
 
 header {
     position: relative;
@@ -287,8 +292,5 @@ header .header-content .header-content-inner p {
 }
 
 
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    background-image: none;
-}
+
+
