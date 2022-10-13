@@ -124,23 +124,27 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
-.content {
+.section-1, .section-2 {
     padding: 100px 0;
 }
 
-.content-2 {
+
+.section-2 {
     color: #fff;
-    background-color: #4C5279;
 }
 
-.content-3 {
+
+.section-3 {
     padding: 20px 0 40px;
     text-align: center;
-    
 }
 
+.section-2bg-color {
+    background-color: #4C5279;
 
-.content img {
+}
+
+img {
     border-radius: 50%;
 }
 
