@@ -13,6 +13,7 @@ html, body {
 .fa-envelope, .fa-check-double, .fa-phone, .fa-fire {
     font-size: 40px;
     margin: auto;
+    padding: 20px 0;
 }
 
 
@@ -33,6 +34,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+
 
 h3 {
     color: #FAB05C;
@@ -109,7 +111,6 @@ header .header-content .header-content-inner p {
 
 
 
-
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;
@@ -135,7 +136,9 @@ header .header-content .header-content-inner p {
 .content-3 {
     padding: 20px 0 40px;
     text-align: center;
+    
 }
+
 
 .content img {
     border-radius: 50%;
@@ -248,9 +251,6 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-.fa-phone {
-    padding: 20px 0;
-}
 
 .fa-check-double {
     color: #FAB05C;
@@ -265,9 +265,6 @@ header .header-content .header-content-inner p {
 }
 
 
-.navbar ul li { 
-    padding: 0px 10px; 
- } 
 
 .btn-default:hover,
 .btn-default:focus,
@@ -280,6 +277,7 @@ header .header-content .header-content-inner p {
     background-color: #eee;
 }
 
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -290,7 +288,6 @@ header .header-content .header-content-inner p {
     color: #fff;
     background-color: #B15359;
 }
-
 
 
 
